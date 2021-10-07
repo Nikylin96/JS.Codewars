@@ -1,0 +1,7 @@
+function billboard(name, price = 30){
+    var amount = 0;
+  for (var i = 0; i < name.length; i++){
+    amount += price
+  }
+  return amount;
+} 
