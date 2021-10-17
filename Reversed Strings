@@ -6,7 +6,5 @@ Complete the solution so that it reverses the string passed into it.
 ___________________________
 
 function solution(str){
-  let stroka = str;
-  let array = [...stroka];
-  return array.reverse().join("")
+  return [...str].reverse().join("")
 }
